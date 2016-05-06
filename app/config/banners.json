@@ -1,0 +1,8 @@
+{
+	"banners": [
+		{ "src": "img/banners/img1.jpg", "alt": "image 1", "link":"link1" },
+		{ "src": "img/banners/img2.jpg", "alt": "image 2", "link":"link2" },
+		{ "src": "img/banners/img3.jpg", "alt": "image 3", "link":"link3" },
+		{ "src": "img/banners/img4.jpg", "alt": "image 4", "link":"link4" }
+	]
+}

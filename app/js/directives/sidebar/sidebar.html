@@ -1,0 +1,79 @@
+<!-- <md-sidenav md-is-locked-open="$mdMedia('gt-sm')" md-component-id="left" class="md-whiteframe-z2"> -->
+<md-sidenav md-component-id="left" class="md-whiteframe-z2">
+	<header class="sidebar-header header-cover" style="background-image: url(http://2.bp.blogspot.com/-2RewSLZUzRg/U-9o6SD4M6I/AAAAAAAADIE/voax99AbRx0/s1600/14%2B-%2B1%2B%281%29.jpg);">
+        <div class="sidebar-top-bar"></div>
+        	<!-- USER PROFILE IMAGE -->
+        	<div class="sidebar-image">
+            	<img ng-src="img/profile.jpg">
+        	</div>
+        	<!-- USER EMAIL -->
+        	<a class="sidebar-email" href=""> john.doe@gmail.com </a>
+		<!-- </div> -->
+	</header>
+	<md-content flex role="navigation">
+		<ul class="sidebar-links">
+	        <li ng-click="sidebarCtrl.handleMenuNavigation('wallet')">
+	        	<a href=""><i class="material-icons">local_atm</i> My Wallet </a>
+	        </li>
+	        <li ng-click="sidebarCtrl.handleMenuNavigation('transactions')">
+	        	<a href=""><i class="material-icons">star</i> Transactions </a>
+	        </li>
+	        <li ng-click="sidebarCtrl.handleMenuNavigation('balance')">
+	        	<a href=""><i class="material-icons">attach_money</i> Wallet Balance </a>
+	        </li>
+	        <li ng-click="sidebarCtrl.handleMenuNavigation('cards')">
+	        	<a href=""><i class="material-icons">credit_card</i> Cards and accounts </a>
+	        </li>
+	        <li class="divider"></li>
+	        <!-- <li ng-click="sidebarCtrl.handleMenuNavigation('giftcards')">
+	        	<a href=""><i class="material-icons">card_giftcard</i> Gift Cards </a>
+	        </li>
+	        <li ng-click="sidebarCtrl.handleMenuNavigation('loyalty')">
+	        	<a href=""><i class="material-icons">star</i> Loyalty Programmes </a>
+	        </li>
+	        <li ng-click="sidebarCtrl.handleMenuNavigation('offers')">
+	        	<a href=""><i class="material-icons">loyalty</i> Offers </a>
+	        </li>
+	        <li ng-click="sidebarCtrl.handleMenuNavigation('orders')">
+	        	<a href=""><i class="material-icons">class</i> Orders </a>
+	        </li> -->
+	        <li ng-click="sidebarCtrl.handleMenuNavigation('imageBanner')">
+	        	<a href=""><i class="material-icons">loyalty</i> Image Banner Demo </a>
+	        </li>
+	        <li ng-click="sidebarCtrl.handleMenuNavigation('textBanner')">
+	        	<a href=""><i class="material-icons">loyalty</i> Text Banner Demo </a>
+	        </li>
+	        <li ng-click="sidebarCtrl.handleMenuNavigation('imageSlider')">
+	        	<a href=""><i class="material-icons">loyalty</i> Image Slider Demo </a>
+	        </li>
+	        <li ng-click="sidebarCtrl.handleMenuNavigation('dialog')">
+	        	<a href=""><i class="material-icons">loyalty</i> Dialog Demo </a>
+	        </li>
+	        <li ng-click="sidebarCtrl.handleMenuNavigation('fabSpeedDial')">
+	        	<a href=""><i class="material-icons">loyalty</i> FAB Speed Dial Demo </a>
+	        </li>
+	        <li ng-click="sidebarCtrl.handleMenuNavigation('adsPanel')">
+	        	<a href=""><i class="material-icons">loyalty</i> Ads Panel Demo </a>
+	        </li>
+	        <li ng-click="sidebarCtrl.handleMenuNavigation('productComp')">
+	        	<a href=""><i class="material-icons">loyalty</i> Product Component Demo </a>
+	        </li>
+	        <li ng-click="sidebarCtrl.handleMenuNavigation('horizontalMenu')">
+	        	<a href=""><i class="material-icons">loyalty</i> Horizontal Menu Demo </a>
+	        </li>
+	        <li ng-click="sidebarCtrl.handleMenuNavigation('productsList')">
+	        	<a href=""><i class="material-icons">loyalty</i> Products List Demo </a>
+	        </li>
+	        <li ng-click="sidebarCtrl.handleMenuNavigation('tabs')">
+	        	<a href=""><i class="material-icons">loyalty</i> Tabs Demo </a>
+	        </li>
+	        <li class="divider"></li>
+	        <li ng-click="sidebarCtrl.handleMenuNavigation('settings')">
+	        	<a href=""><i class="material-icons">settings</i> Settings </a>
+	        </li>
+	        <li ng-click="sidebarCtrl.handleMenuNavigation('logout')">
+	        	<a href=""><i class="material-icons">power_settings_new</i> Logout </a>
+	        </li>
+	    </ul>
+	</md-content>
+</md-sidenav>

@@ -1,0 +1,27 @@
+<div class="ads-container">
+	<div layout="row" layout-wrap>
+		<div class="top">
+			<div class="ads-group-title"> Deals of the Day </div>
+			<div class="ads-see-all" ng-click="adsCtrl.viewAll()">
+				<a href=""> View All </a>
+			</div>
+		</div>
+		<div class="flex-container">
+            <md-card class="flex-item" ng-repeat="ad in adsCtrl.ads track by $index" ng-click="adsCtrl.showDeal($index)">
+            	<div class="ad-img">
+					<img ng-src="{{ad.imageUrl}}" class="md-card-image" alt="{{ad.alt}}">
+				</div>
+				<md-card-title class="ad-title">
+				  	<md-card-title-text>
+						<span> {{ad.title}} </span>
+				  	</md-card-title-text>
+				</md-card-title>
+				<md-card-content>
+					<div class="ad-desc"> {{ad.offer}} </div>
+					<div class="ad-desc"> {{ad.description}} </div>
+					<div class="ad-desc"> {{ad.extras}} </div>
+				</md-card-content>
+			</md-card>
+        </div>
+    </div>
+</div>

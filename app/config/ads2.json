@@ -1,0 +1,66 @@
+{
+	"ads": [{
+		"id": 10,
+		"imageUrl": "img/ads/ad10.jpeg",
+		"title": "Deal Title",
+		"offer": "Offer Details",
+		"description": "Offer Description",
+		"extras": "Offer Description"
+	},{
+		"id": 8,
+		"imageUrl": "img/ads/ad8.jpeg",
+		"title": "Deal Title",
+		"offer": "Offer Details",
+		"description": "Offer Description",
+		"extras": "Offer Description"
+	},{
+		"id": 7,
+		"imageUrl": "img/ads/ad7.jpeg",
+		"title": "Deal Title",
+		"offer": "Offer Details",
+		"description": "Offer Description",
+		"extras": "Offer Description"
+	},{
+		"id": 6,
+		"imageUrl": "img/ads/ad6.jpeg",
+		"title": "Deal Title",
+		"offer": "Offer Details",
+		"description": "Offer Description",
+		"extras": "Offer Description"
+	},{
+		"id": 5,
+		"imageUrl": "img/ads/ad5.jpeg",
+		"title": "Just at Rs.549",
+		"offer": "Samsung",
+		"description": "HS-130 Headphones",
+		"extras": "Offer Description"
+	},{
+		"id": 4,
+		"imageUrl": "img/ads/ad4.jpeg",
+		"title": "Pack of Two",
+		"offer": "Sandisk Ultra",
+		"description": "Rs.599",
+		"extras": "Offer Description"
+	},{
+		"id": 3,
+		"imageUrl": "img/ads/ad3.jpeg",
+		"title": "Lotto & Sparx",
+		"offer": "Minimum 40% off",
+		"description": "Men's Footwear",
+		"extras": "Offer Description"
+	},{
+		"id": 2,
+		"imageUrl": "img/ads/ad2.jpeg",
+		"title": "Tukzer",
+		"offer": "Just at Rs.279",
+		"description": "USB Cables - Free Shipping",
+		"extras": "Offer Description"
+	},{
+		"id": 1,
+		"imageUrl": "img/ads/ad1.jpeg",
+		"title": "Joyo & MasterCook",
+		"offer": "At just Rs.299",
+		"description": "17 Piece Container Sets",
+		"extras": "Offer Description"
+	}]
+}

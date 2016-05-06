@@ -1,0 +1,91 @@
+[product-comp] {
+	/*min-width: 410px;*/
+    max-height: 180px;
+    border: 1px solid #dedede;
+    height: 180px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+[product-comp]:hover {
+	background-color: #dedede;
+}
+
+[product-comp] .pc-card {
+	margin: 0px;
+	line-height: normal;
+	height: 100%;
+}
+
+[product-comp] .product-img {
+	height: 180px;
+    width: 140px;
+    float: left;
+    text-align: center;
+	margin-right: 10px;
+}
+
+[product-comp] .product-img img {
+	height: 100%;
+}
+
+[product-comp] .top {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+[product-comp] .details {
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+[product-comp] .details > div {
+	height: 15px;
+}
+
+[product-comp] .color-and-size {
+	color: gray;
+}
+
+[product-comp] .color-and-size .color {
+	float: left;
+	width: 120px;
+}
+
+[product-comp] .color-and-size .color-options,
+[product-comp] .color-and-size .size-options {
+	float: left;
+}
+
+[product-comp] .color-and-size .color-item,
+[product-comp] .color-and-size .size-item {
+	float: left;
+	border: 1px solid;
+	padding: 2px;
+	margin: 2px;
+	text-align: center;
+	height: 24px;
+	cursor: pointer;
+}
+
+[product-comp] .color-and-size .color-item {
+	width: 24px;
+}
+
+[product-comp] .arrow {
+    color: #009cde;
+    font-weight: 600;
+    position: absolute;
+    font-size: 24px;
+    right: -5px;
+    top: 0px;
+    line-height: 200px;
+    cursor: pointer;
+}
+
+[product-comp] .arrow > i {
+	font-size: 44px;
+}

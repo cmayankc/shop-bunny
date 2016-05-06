@@ -1,0 +1,39 @@
+[sb-header] {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    height: 50px;
+    z-index: 20;
+}
+
+[sb-header] md-toolbar {
+	min-height: 50px;
+	height: 50px;
+}
+
+[sb-header] .md-toolbar-tools {
+	height: 50px;
+}
+
+[sb-header] .md-toolbar-tools i {
+	color: #fff;
+}
+
+[sb-header] .md-toolbar-tools .search {
+	width: 100%;
+}
+
+[sb-header] .md-toolbar-tools .search input {
+	width: 100%;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    padding: 5px 20px 5px 40px;
+}
+
+[sb-header] .md-toolbar-tools .search i {
+    position: absolute;
+    top: 14px;
+}

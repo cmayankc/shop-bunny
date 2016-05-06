@@ -1,0 +1,89 @@
+[horizontal-menu] {
+	width: 100%;
+    height: 50px;
+    border: 1px solid #e3e3e3;
+}
+
+[horizontal-menu] .sub-menu {
+	overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+[horizontal-menu] .left-nav,
+[horizontal-menu] .right-nav {
+    width: 24px;
+    cursor: pointer;
+}
+
+[horizontal-menu] .left-nav {
+    position: absolute;
+    left: 0px;
+    width: 24px;
+}
+
+[horizontal-menu] .left-nav[disabled] i,
+[horizontal-menu] .right-nav[disabled] i {
+	pointer-events: none;
+  	opacity: 0.5;
+  	color: #ccc;
+}
+
+[horizontal-menu] .right-nav {
+    position: absolute;
+    right:0px;
+    width: 24px;
+}
+
+[horizontal-menu] .left-nav i,
+[horizontal-menu] .right-nav i {
+	line-height: 50px;
+}
+
+[horizontal-menu] .menu-items {
+	float: left;
+    overflow: hidden;
+    width: 90%;
+    text-transform: uppercase;
+    position: absolute;
+    left: 34px;
+    height: 100%;
+}
+
+[horizontal-menu] .menu-items ul {
+    height: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0px;
+}
+
+[horizontal-menu] ul.sub-menu {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+}
+
+[horizontal-menu] li {
+	float: left;
+}
+
+[horizontal-menu] a {
+	display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: gray;
+}
+
+[horizontal-menu] a:hover {
+	color: #009cde;
+}
+
+[horizontal-menu] a.active > div {
+	border-bottom: 2px solid red;
+    padding-bottom: 5px;
+    color: #009cde;
+}

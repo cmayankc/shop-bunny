@@ -1,0 +1,58 @@
+{
+	"products": [{
+		"id": 1,
+		"imageUrl": "img/products/prod1.jpeg",
+		"title": "Samsung Galaxy On7",
+		"subTitle": "Joyo & MasterCook",
+		"specification1": "QHD S Amoled Display",
+		"specification2": "4 GB RAM | 32 GB ROM",
+		"specification3": "Dual Pixel Camera",
+		"specification4": "3600 mAh Battery",
+		"colors": ["blue","black","white"],
+		"sizes": ["8GB","16GB"]
+	},{
+		"id": 2,
+		"imageUrl": "img/products/prod2.jpeg",
+		"title": "Samsung Galaxy On5",
+		"subTitle": "Joyo & MasterCook",
+		"specification1": "QHD S Amoled Display",
+		"specification2": "4 GB RAM | 32 GB ROM",
+		"specification3": "Dual Pixel Camera",
+		"specification4": "3600 mAh Battery",
+		"colors": ["blue","black","white"],
+		"sizes": ["8GB","16GB"]
+	},{
+		"id": 3,
+		"imageUrl": "img/products/prod3.jpeg",
+		"title": "Samsung Galaxy J7",
+		"subTitle": "Joyo & MasterCook",
+		"specification1": "QHD S Amoled Display",
+		"specification2": "4 GB RAM | 32 GB ROM",
+		"specification3": "Dual Pixel Camera",
+		"specification4": "3600 mAh Battery",
+		"colors": ["blue","black","white"],
+		"sizes": ["8GB","16GB"]
+	},{
+		"id": 4,
+		"imageUrl": "img/products/prod4.jpeg",
+		"title": "Samsung Galaxy Note4",
+		"subTitle": "Joyo & MasterCook",
+		"specification1": "QHD S Amoled Display",
+		"specification2": "4 GB RAM | 32 GB ROM",
+		"specification3": "Dual Pixel Camera",
+		"specification4": "3600 mAh Battery",
+		"colors": ["blue","black","white"],
+		"sizes": ["8GB","16GB"]
+	},{
+		"id": 5,
+		"imageUrl": "img/products/prod5.jpeg",
+		"title": "Samsung S5",
+		"subTitle": "Joyo & MasterCook",
+		"specification1": "QHD S Amoled Display",
+		"specification2": "4 GB RAM | 32 GB ROM",
+		"specification3": "Dual Pixel Camera",
+		"specification4": "3600 mAh Battery",
+		"colors": ["blue","black","white"],
+		"sizes": ["8GB","16GB"]
+	}]
+}

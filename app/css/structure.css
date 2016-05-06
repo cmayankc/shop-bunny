@@ -1,0 +1,39 @@
+.main-container {
+    width: 100%;
+    top: 50px;
+    position: fixed;
+    bottom: 50px;
+}
+
+[ui-view] {
+	height: 100%;
+    padding: 10px;
+}
+
+.main-container md-toolbar {
+	min-height: 50px;
+    height: 50px;
+    z-index: 10;
+}
+
+.main-container .md-toolbar-tools .search {
+	width: 100%;
+}
+
+.main-container .md-toolbar-tools .search input {
+	width: 100%;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    padding: 5px 20px 5px 40px;
+}
+
+.main-container .md-toolbar-tools .search i {
+    position: absolute;
+    top: 14px;
+}
+
+.main-container md-progress-linear .md-bar {
+    background-color: rgb(40,53,147);
+}

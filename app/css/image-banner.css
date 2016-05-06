@@ -1,0 +1,11 @@
+[image-banner] > div {
+	width: 100%;
+	height: 140px;
+	margin: 15px 0px;
+	cursor: pointer;
+	outline: none;
+}
+
+[image-banner] img {
+	max-height: 100%;
+}

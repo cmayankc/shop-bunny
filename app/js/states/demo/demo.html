@@ -1,0 +1,29 @@
+<div text-banner ng-if="demoCtrl.component === 'textBanner'"></div>
+<div image-banner ng-if="demoCtrl.component === 'imageBanner'"></div>
+<div scrollable-image-slider ng-if="demoCtrl.component === 'imageSlider'"></div>
+
+<div ng-if="demoCtrl.component === 'dialog'">
+	<md-button class="md-primary md-raised" ng-click="demoCtrl.showAlert($event)"> Alert Dialog </md-button>
+    <md-button class="md-primary md-raised" ng-click="demoCtrl.showConfirm($event)"> Confirm Dialog </md-button>
+    <md-button class="md-primary md-raised" ng-click="demoCtrl.showPrompt($event)"> Prompt Dialog </md-button>
+    <!-- <md-button class="md-primary md-raised" ng-click="demoCtrl.showAdvanced($event)"> Custom Dialog </md-button> -->
+</div>
+
+<div sb-fab-speed-dial ng-if="demoCtrl.component === 'fabSpeedDial'" direction="{{demoCtrl.fabDirection}}"></div>
+
+<div ng-if="demoCtrl.component === 'adsPanel'">
+	<div ads-panel json-src="config/ads1.json"></div>
+	<div ads-panel json-src="config/ads2.json"></div>
+	<div ads-panel json-src="config/ads1.json"></div>
+	<div ads-panel json-src="config/ads2.json"></div>
+</div>
+
+<div ng-if="demoCtrl.component === 'productComp'">
+	<div ng-repeat="prod in demoCtrl.products track by $index">
+		<div product-comp details="prod"></div>
+	</div>
+</div>
+
+<div horizontal-menu ng-if="demoCtrl.component === 'horizontalMenu'"></div>
+<div products-list ng-if="demoCtrl.component === 'productsList'"></div>
+<div tabs json-src="config/tabs.json" ng-if="demoCtrl.component === 'tabs'"></div>

@@ -1,0 +1,29 @@
+{
+	"tabs": {
+		"rows": [{
+				"id": 1,
+				"tabs": [{ "id": 1, "label": "Mobiles and Tablets", "icon": "img/tabs/tab.png" },
+						{ "id": 2, "label": "Mobile Accessories", "icon": "img/tabs/tab.png" },
+						{ "id": 3, "label": "Laptops", "icon": "img/tabs/tab.png" },
+						{ "id": 4, "label": "Desktops", "icon": "img/tabs/tab.png" }]
+			},{
+				"id": 2,
+				"tabs": [{ "id": 1, "label": "Computer Accessories", "icon": "img/tabs/tab.png" },
+						{ "id": 2, "label": "Printers", "icon": "img/tabs/tab.png" },
+						{ "id": 3, "label": "Cameras", "icon": "img/tabs/tab.png" },
+						{ "id": 4, "label": "Sound Systems", "icon": "img/tabs/tab.png" }]
+			},{
+				"id": 3,
+				"tabs": [{ "id": 1, "label": "Headphones", "icon": "img/tabs/tab.png" },
+						{ "id": 2, "label": "Televisions", "icon": "img/tabs/tab.png" },
+						{ "id": 3, "label": "Refrigerators", "icon": "img/tabs/tab.png" },
+						{ "id": 4, "label": "AC and Coolers", "icon": "img/tabs/tab.png" }]
+			},{
+				"id": 4,
+				"tabs": [{ "id": 1, "label": "Washing Machines", "icon": "img/tabs/tab.png" },
+						{ "id": 2, "label": "Kitchenware", "icon": "img/tabs/tab.png" },
+						{ "id": 3, "label": "Personal Care", "icon": "img/tabs/tab.png" },
+						{ "id": 4, "label": "Fitness", "icon": "img/tabs/tab.png" }]
+			}]
+	}
+}

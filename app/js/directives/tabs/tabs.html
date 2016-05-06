@@ -1,0 +1,12 @@
+<div class="tabs-container">
+	<div class="tabs-row" ng-repeat="row in tabsCtrl.tabs.rows track by $index">
+		<div class="tab" ng-repeat="tab in row.tabs track by $index" ng-click="tabsCtrl.handleTabClick(row, tab)" ng-class="{'selected': tabsCtrl.selectedTab.id === tab.id && tabsCtrl.selectedRow.id === row.id}">
+			<div class="icon">
+				<img ng-src="{{tab.icon}}" />	
+			</div>
+			<div class="label">
+				<span> {{tab.label}} </span>
+			</div>
+		</div>
+	</div>
+</div>

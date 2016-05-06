@@ -1,0 +1,7 @@
+[products-list] .md-button {
+	padding: 0px;
+}
+
+[products-list] [product-comp] {
+	width: 100%;
+}

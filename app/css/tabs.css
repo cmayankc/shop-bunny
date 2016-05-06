@@ -1,0 +1,45 @@
+[tabs] {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+[tabs] .tabs-container {
+
+}
+
+[tabs] .tabs-row {
+	float: none;
+    clear: both;
+}
+
+[tabs] .tab {
+	width: 90px;
+    height: 80px;
+    border: 1px solid;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+[tabs] .tab:hover {
+	background-color: #cecece;
+}
+
+[tabs] .tab.selected {
+	background-color: #009cde;
+}
+
+[tabs] .tab .icon {
+	padding: 4px;
+    height: 30%;
+    margin-bottom: 10px;
+}
+
+[tabs] .tab .icon img {
+	height: 100%;
+}
+
+[tabs] .tab .label {
+	font-size: 12px;
+}

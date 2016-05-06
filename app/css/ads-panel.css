@@ -1,0 +1,65 @@
+[ads-panel] {
+
+}
+
+[ads-panel] .ads-container {
+    margin: 20px 0px;
+}
+
+[ads-panel] .ads-container .top {
+    padding: 8px;
+    border-bottom: 1px solid;
+    width: 100%;
+}
+
+[ads-panel] .ads-container .ads-group-title {
+    float: left;
+    font-weight: 600;
+}
+
+[ads-panel] .ads-container .ads-see-all {
+    float: right;
+}
+
+[ads-panel] .flex-container {
+    display: -webkit-flex;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background-color: #eaeaea;
+}
+
+[ads-panel] .flex-item {
+    margin: 10px;
+    min-width: 185px;
+    max-width: 185px;
+    min-height: 340px;
+    max-height: 340px;
+    cursor: pointer;
+}
+
+[ads-panel] .flex-item .ad-img {
+    height: 180px;
+    padding: 10px;
+}
+
+[ads-panel] .flex-item .ad-img img {
+    height: 100%;
+}
+
+[ads-panel] .flex-item .ad-title {
+    text-align: center;
+    font-weight: 600;
+    padding: 10px 5px 10px 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+[ads-panel] .flex-item .ad-desc {
+    text-align: center;
+    padding: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,17 @@
+<div class="scrollable-image-slider">
+	<ul>
+		<li ng-repeat="image in scrollableImageSliderCtrl.images track by $index">
+			<a href="" ng-click="scrollableImageSliderCtrl.openImageLink($index)">
+				<img ng-src="{{image.src}}" alt="{{image.alt}}" ng-hide="scrollableImageSliderCtrl.current !== $index" />
+			</a>
+		</li>
+	</ul>
+
+	<nav class="links">
+	<ul>
+		<li ng-repeat="image in scrollableImageSliderCtrl.images track by $index">
+			<a href="" ng-click="scrollableImageSliderCtrl.slideTo($index)" ng-class="{selected: scrollableImageSliderCtrl.current == $index}"></a>
+		</li>
+	</ul>
+	</nav>
+</div>

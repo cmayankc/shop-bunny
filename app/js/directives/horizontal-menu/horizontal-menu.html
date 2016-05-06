@@ -1,0 +1,17 @@
+<ul class="sub-menu">
+	<li class="left-nav" ng-disabled="horizontalMenuCtrl.disabledNav === 'left'">
+		<i class="material-icons" ng-click="horizontalMenuCtrl.moveLeft()">keyboard_arrow_left</i>
+	</li>
+	<li class="menu-items">
+		<ul ng-style="horizontalMenuCtrl.currentStyle">
+			<li ng-repeat="item in horizontalMenuCtrl.menuItems track by $index">
+				<a href="" ng-class="{'active': horizontalMenuCtrl.selectedIndex === $index}" ng-click="horizontalMenuCtrl.handleMenuClick($index)">
+					<div> {{item.label}} </div>
+				</a>
+			</li>
+		</ul>
+	</li>
+	<li class="right-nav" ng-disabled="horizontalMenuCtrl.disabledNav === 'right'">
+		<i class="material-icons" ng-click="horizontalMenuCtrl.moveRight()">keyboard_arrow_right</i>
+	</li>
+</ul>
